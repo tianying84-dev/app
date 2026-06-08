@@ -1,0 +1,7 @@
+streamlit==1.45.1
+pillow
+transformers
+torch
+torchvision
+deep-translator
+sentencepiece

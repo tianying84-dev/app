@@ -1,5 +1,0 @@
-streamlit
-pillow
-transformers
-torch
-deep-translator
