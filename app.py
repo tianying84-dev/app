@@ -179,10 +179,10 @@ def show_food_info(label, display_name):
     health = category_advice[category]["health"]
     advice = category_advice[category]["advice"]
 
-    st.write(f"📂 カテゴリー：{category}")
-    st.write(f"⭐ 健康度：{health}")
-    st.write(f"💡 アドバイス：{advice}")
-    st.write("🔥 参考カロリー：Google検索で確認できます")
+    st.write(f"・　カテゴリー：{category}")
+    st.write(f"・　健康度：{health}")
+    st.write(f"・　アドバイス：{advice}")
+    st.write("・　参考カロリー：Google検索で確認できます")
 
     calorie_url = make_google_search_url(display_name)
 
@@ -251,7 +251,7 @@ if image_file:
 
         st.success("認識が完了しました！")
         st.subheader(f"🍽 認識結果：{display_name}")
-        st.subheader(f"🎯 信頼度：{final_score:.2f}%")
+        st.subheader(f"   信頼度：{final_score:.2f}%")
 
         st.markdown("---")
 
