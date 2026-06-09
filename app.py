@@ -5,7 +5,7 @@ from transformers import pipeline
 from deep_translator import GoogleTranslator
 from urllib.parse import quote
 
-st.title("料理認識・栄養情報システム")
+st.title("食品認識・栄養情報システム")
 
 FOOD_THRESHOLD = 60
 GENERAL_THRESHOLD = 60
